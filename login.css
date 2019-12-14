@@ -1,0 +1,56 @@
+body{
+    font-family: Arial,sans-serif;
+    background: white url("img/1.jpeg") no-repeat scroll;
+    background-size: cover;
+}
+.form-div{
+
+    width: 250px;
+    text-align: center;
+    margin:  150px auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #27cdf7;
+
+}
+.form-div img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+.form-div h2{
+    color: white;
+    margin-top: 10px;
+}
+input[type='text'],
+input[type='password']{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    border-bottom: 3px solid teal;
+    width: 200px;
+}
+::placeholder{
+    color: lightgray;
+}
+input[type='text']:focus,
+input[type='password']:focus{
+    border-bottom: 3px solid #27cdf7;
+}
+input[type='submit']{
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin:15px;
+    padding: 8px 35px;
+    border-radius: 50px;
+}
+input[type='submit']:hover{
+    background-color:#27cdf7 ;
+    box-shadow: 0 0 10px white;
+}
